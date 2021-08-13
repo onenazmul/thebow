@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Not Found | The BOW</title>
+<title>Register Now | The BOW</title>
 <!-- Stylesheets -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
@@ -26,6 +26,7 @@
 <body>
 
 <div class="page-wrapper">
+
     <!-- Preloader -->
     <div class="loader-wrap">
         <div class="preloader"><div class="preloader-close">Stop Preloader</div></div>
@@ -263,7 +264,7 @@
                 <form method="post" action="">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="search" class="form-control" name="search-input" placeholder="Search Here" required >
                             <input type="submit" value="Search Now!" class="theme-btn">
                         </fieldset>
                     </div>
@@ -272,18 +273,99 @@
         </div>
     </div>
 
-    <!-- Error Page -->
-    <section class="error-page">
-        <div class="sec-bg" style="background-image: url(assets/images/background/bg-20.jpg);"></div>
+    <!-- Page Title -->
+    <section class="page-title" style="background-image: url(assets/images/background/bg-20.jpg);">
+        <div class="background-text">
+            <div data-parallax='{"x": 100}'>
+                <div class="text-1">TheBOW</div>
+                <div class="text-2">TheBOW</div>
+            </div>                
+        </div>
         <div class="auto-container">
-            <div class="content text-center" style="background-image: url(assets/images/background/bg-21.jpg);">
-                <div class="error-image"><img src="assets/images/resource/404.png" alt=""></div>
-                <h2>Sorry this page isn’t available</h2>
-                <p>We're not being able to find the page you're looking for</p>
-                <div class="read-more-link text-center">
-                    <a href="index.html" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Back to Home</span></a>
+            <div class="content-box">
+                <div class="content-wrapper">
+                    <div class="title">
+                        <h1>Register Now</h1>
+                    </div>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Register Now</li>
+                    </ul>
+                </div>                    
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section class="contact-form-section login-register">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Register as Merchant</div>
+                <h2>The BOW</h2>
+            </div>
+            <!--Form-->
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-lg-8">
+                    <div class="contact-form">
+                        <form method="post" action="" id="contact-form">
+                            <div class="row">
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Name of Business" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Username" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="email" name="" placeholder="Email" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Phone" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Pickup Address" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" name="make">
+                                            <option value="">Payment Mode</option>
+                                            <option value="a">Bkash</option>
+                                            <option value="a">Bank</option>
+                                            <option value="a">Cash</option>
+                                            <option value="a">Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="text" name="" placeholder="Payment details(Optional)" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="password" placeholder="Password" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <input type="password" placeholder="Confirm Password" required>
+                                </div>
+                                <div class="form-group col-sm-12 mb-1">
+                                     <div class="agree">
+                                         <input type="checkbox" name="agree" id="agree"> <label for="agree"> <label for="agree">I agree to <a href="/terms-condition">terms and
+                                                condition.</a> </label></label>
+                                     </div>
+                                </div>           
+                                <div class="form-group text-center col-md-12 mb-3 mt-4">
+                                    <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span><i class="flaticon-up-arrow"></i>Register</span></button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="mt-4 text-center">
+                            <p class="lead">Already have an account, <a href="login.html">Login Now</a></p>
+                        </div>
+                    </div>
                 </div>
-            </div>            
+            </div>
+            
+            <!--End Form-->
         </div>
     </section>
 

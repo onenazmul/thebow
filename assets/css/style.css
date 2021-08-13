@@ -11467,6 +11467,10 @@ section.whychooseus-section-two {
     padding: 0 0 120px;
     margin-top: -140px;
 }
+.contact-form-section.login-register {
+    position: relative;
+    padding: 90px 0 90px;
+}
 
 .contact-info-section-two .nav.nav-tabs.tab-btn-style-two {
     position: relative;
@@ -14351,4 +14355,185 @@ section.whychooseus-section-two {
 
 .service-sidebar .widget.getaquote-widget {
     display: none;
+}
+.otp-form input::-webkit-outer-spin-button,
+ .otp-form input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+ /* Firefox */
+ .phone-f-otp input[type=number] {
+   -moz-appearance: textfield;
+ }
+ .phone-f-otp {
+     border: 1px solid #f78a1e;
+     display: inline-block;
+     border-radius: 2px;
+     width: 100%;
+ }
+ .phone-f-otp input[type=number] {
+     border: 0;
+     border-left: 1px solid #ddd;
+     width: 85%;
+     border-radius: 0;
+     padding: 14px 7px;
+ }
+ .phone-f-otp picture.flag {
+     padding-left: 10px;
+     padding-right: 5px;
+ }
+ .phone-f-otp span.ext {
+     padding-right: 5px;
+ }
+ .phone-f-otp input[type=number]:focus {
+     box-shadow: none;
+     outline: none;
+ }
+ input.otp-field {
+     width: 45px;
+     border: 2px solid #1d63af;
+     height: 45px;
+     margin: 10px 6px;
+     text-align: center;
+     border-radius: 2px;
+     transition: .2s;
+ }
+ .otp-field-alt {
+     width: 230px;
+     margin: 5px auto;
+     border: 2px solid #1d63af;
+     text-align: center;
+     border-radius: 2px;
+     transition: .2s;
+ }
+
+
+ .timeline {
+     background: rgba(114, 124, 245, 0.09);
+     border-left: 3px solid #2a3d9b;
+     border-bottom-right-radius: 4px;
+     border-top-right-radius: 4px;
+     margin-left: 30%;
+     letter-spacing: 0.2px;
+     position: relative;
+     line-height: 1.4em;
+     font-size: 1.03em;
+     padding: 30px;
+     list-style: none;
+     text-align: left;
+     max-width: 70%;
+ }
+ .event span.date {
+     position: absolute;
+     left: -55%;
+     width: 40%;
+     font-weight: 100;
+     text-align: right;
+     font-size: 0.9em;
+     top: 0;
+     line-height: 1.4;
+ }
+
+ @media (max-width: 767px) {
+     .timeline {
+         max-width: 98%;
+         padding: 25px;
+     }
+ }
+
+ .timeline h1 {
+     font-weight: 300;
+     font-size: 1.4em;
+ }
+
+ .timeline h2,
+ .timeline h3 {
+     font-weight: 600;
+     font-size: 1rem;
+     margin-bottom: 10px;
+ }
+
+ .timeline .event {
+     border-bottom: 1px dashed #2a3d9b;
+     padding-bottom: 0px;
+     margin-bottom: 15px;
+     position: relative;
+ }
+ .timeline .event:last-child, .timeline .event:last-child p{
+    margin-bottom: 0;
+ }
+ @media (max-width: 767px) {
+     .timeline .event {
+         padding-top: 30px;
+     }
+ }
+
+ .timeline .event:last-of-type {
+     padding-bottom: 0;
+     margin-bottom: 0;
+     border: none;
+ }
+
+ .timeline .event:before,
+ .timeline .event:after {
+     position: absolute;
+     display: block;
+     top: 0;
+ }
+
+ .timeline .event:before {
+     left: -180px;
+     content: attr(data-date);
+     text-align: right;
+     font-weight: 100;
+     font-size: 0.9em;
+     min-width: 120px;
+ }
+
+ @media (max-width: 767px) {
+     .timeline .event:before {
+         left: 0px;
+         text-align: left;
+     }
+ }
+
+ .timeline .event:after {
+     -webkit-box-shadow: 0 0 0 3px #ff5f13;
+     box-shadow: 0 0 0 3px #ff5f13;
+     left: -35.8px;
+     background: #fff;
+     border-radius: 50%;
+     height: 9px;
+     width: 9px;
+     content: "";
+     top: 5px;
+ }
+
+ @media (max-width: 767px) {
+     .timeline .event:after {
+         left: -31.8px;
+     }
+ }
+ @media only screen and (max-width: 767px){
+    .phone-f-otp input[type=number] {
+        font-size: 12.5px;
+        width: 79%;
+    }
+    .phone-f-otp span.ext {
+        font-size: 12.5px;
+    }
+    .phone-f-otp picture.flag {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+    .scroll-to-top {
+        right: 25px;
+        bottom: 90px;
+        width: 50px;
+        height: 50px;
+        line-height: 46px;
+    }
+    .page-title .content-box {
+        padding: 230px 0px 155px;
+    }
 }
